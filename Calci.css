@@ -1,0 +1,48 @@
+body{
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+}
+.heading{
+    margin-top: 50px;
+    color: #FDF6F0;
+    font-size: 90px;
+    word-spacing: 80px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+#container{
+    color: brown;
+    font-size: 30px;
+
+}
+#key{
+    text-align: center;
+    margin: auto;
+}
+#input{
+    text-align: center;
+    margin-top: 140px;
+}
+#input-dsg{
+    background-color: #423F3E;
+    font-size: 30px;
+    text-align: right;
+    width: 915px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#key-dsg{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: #444444;
+    width: 90px;
+    height: 50px;
+    font-size: 18px ;
+    border: 0.5px solid white;
+}
+button#key-dsg:hover {
+    background-color: #1797B2;
+    color: whitesmoke;
+}

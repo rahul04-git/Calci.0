@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calci.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<head>
+<body>
+    <h1 class="heading"> CALCULATOR </h1>
+    <form action="">
+        <div id="input">
+            <input type="text" name="screen" id="input-dsg">
+        </div>
+        <div id="container">
+            <table id="key" cellspacing="0.5px">
+                <tr>
+                    <td><button type="button" id="key-dsg" class="number">(</button></td>
+                    <td><button type="button" id="key-dsg" class="number">)</button></td>
+                    <td><button type="button" id="key-dsg" class="number">#</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">√</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">rad</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">%</button></td>
+                    <td><button type="button" id="key-dsg" class="assign" style="color: red;"><strong>C</strong></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">/</button></td>
+                    <td><button type="button" id="key-dsg" class="assign" style="color: #DA0037;"><strong>del</strong></button></td>
+                    <td><button type="button" id="key-dsg" class="assign">=</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="key-dsg" class="operator">sin<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">cos<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">tan<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">sin</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">cos</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">tan</button></td>
+                    <td><button type="button" id="key-dsg" class="number">7</button></td>
+                    <td><button type="button" id="key-dsg" class="number">8</button></td>
+                    <td><button type="button" id="key-dsg" class="number">9</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="key-dsg" class="operator">sinh</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">cosh</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">tanh</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">ln</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">log</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">1/x</button></td>
+                    <td><button type="button" id="key-dsg" class="number">4</button></td>
+                    <td><button type="button" id="key-dsg" class="number">5</button></td>
+                    <td><button type="button" id="key-dsg" class="number">6</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="key-dsg" class="operator">sinh<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">cosh<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">tanh<sup>-1</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">e<sup>x</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">x<sup>2</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">x<sup>y</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="number">1</button></td>
+                    <td><button type="button" id="key-dsg" class="number">2</button></td>
+                    <td><button type="button" id="key-dsg" class="number">3</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="key-dsg" class="operator">2<sup>x</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">x<sup>3</sup></button></td>
+                    <td><button type="button" id="key-dsg" class="operator">x!</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">|x|</button></td>
+                    <td><button type="button" id="key-dsg" class="number">π</button></td>
+                    <td><button type="button" id="key-dsg" class="operator">e</button></td>
+                    <td><button type="button" id="key-dsg" class="number">#</button></td>
+                    <td><button type="button" id="key-dsg" class="number">0</button></td>
+                    <td><button type="button" id="key-dsg" class="number">.</button></td>
+                    <td><button type="button" id="key-dsg" class="assign" style="color: #362222; background-color: saddlebrown;"><strong>Enter</strong></button></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="Calci.js" defer></script>
+</body>
+</html>
